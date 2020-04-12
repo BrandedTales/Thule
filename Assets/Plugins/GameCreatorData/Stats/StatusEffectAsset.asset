@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fd88e18bfbe04f3aa7a8e49ab062838, type: 3}
-  m_Name: DatabaseVariables
+  m_Script: {fileID: 11500000, guid: 213036c5fc0bd40cca8cef17b403ca70, type: 3}
+  m_Name: StatusEffectAsset
   m_EditorClassIdentifier: 
-  tags: {fileID: 11400000, guid: 7c5d5c3dd175bab4f8a8b1832cb1c17b, type: 2}
-  variables: {fileID: 11400000, guid: be1222dfeddcb1942bb312f5f5498d80, type: 2}
+  statusEffects: []

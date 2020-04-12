@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7900445501189838201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: kcz9re05
+  m_EditorClassIdentifier: 
+  uniqueID: 346136f748794ee095cc3e65e32652f3
+  stat:
+    uniqueName: Physical
+    shortName: phys
+    title:
+      content: Physical
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Skill for Physical abilities
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 1
+    formula: {fileID: 0}
+  isHidden: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3929c93f8d6424c87244a3a5d99e94, type: 3}
+  m_Name: StatsAsset
+  m_EditorClassIdentifier: 
+  stats:
+  - {fileID: 114307909447248710}
+  - {fileID: 114866688907080766}
+  - {fileID: 114842526121992400}
+  - {fileID: -7900445501189838201}
+  - {fileID: 1530807384175094565}
+  - {fileID: 8245900726620144861}
+  - {fileID: 8093001846984835193}
+--- !u!114 &114307909447248710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: 0laj7qyh
+  m_EditorClassIdentifier: 
+  uniqueID: e213d04e786449c88ea4826429e900ba
+  stat:
+    uniqueName: exp
+    shortName: EXP
+    title:
+      content: Experience
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Amount of experience gathered
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.86666673, g: 0.627451, b: 0.20392159, a: 1}
+    baseValue: 0
+    formula: {fileID: 11400000, guid: e56e5e077b7f146958ae147b18e9e570, type: 2}
+  isHidden: 0
+--- !u!114 &114842526121992400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: jzmx6jox
+  m_EditorClassIdentifier: 
+  uniqueID: 00999b45fbad4a74909e036b92f1b89a
+  stat:
+    uniqueName: next-level
+    shortName: NL
+    title:
+      content: Progress
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Percentage till the next level
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.8666667, g: 0.627451, b: 0.20392157, a: 1}
+    baseValue: 0
+    formula: {fileID: 11400000, guid: c39abeefbdc6348749bc63607f166632, type: 2}
+  isHidden: 0
+--- !u!114 &114866688907080766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: xqwr62v2
+  m_EditorClassIdentifier: 
+  uniqueID: 877ee1022f3447ee8102227588fc0825
+  stat:
+    uniqueName: level
+    shortName: Lv.
+    title:
+      content: Level
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Current Level
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.8666667, g: 0.627451, b: 0.20392157, a: 1}
+    baseValue: 0
+    formula: {fileID: 11400000, guid: 10f6fd2bc225f47b5a7162abeeaf519c, type: 2}
+  isHidden: 0
+--- !u!114 &1530807384175094565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: uvqm6da0
+  m_EditorClassIdentifier: 
+  uniqueID: ad6dc13b55134b099e6325d3c50161ba
+  stat:
+    uniqueName: Mental
+    shortName: ment
+    title:
+      content: Mental
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Mental
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 1
+    formula: {fileID: 0}
+  isHidden: 0
+--- !u!114 &8093001846984835193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: l42gj54p
+  m_EditorClassIdentifier: 
+  uniqueID: 521aabfc7a9a41a086515cfaafb5bd53
+  stat:
+    uniqueName: DifficultyThreshold
+    shortName: thresh
+    title:
+      content: Threshold
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Threshold (For Encounters Only!)
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 0
+    formula: {fileID: 0}
+  isHidden: 0
+--- !u!114 &8245900726620144861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: it2yayru
+  m_EditorClassIdentifier: 
+  uniqueID: 96c7849c5f024bec8484586be2e94a59
+  stat:
+    uniqueName: Social
+    shortName: soc
+    title:
+      content: Social
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Social
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 1
+    formula: {fileID: 0}
+  isHidden: 0
