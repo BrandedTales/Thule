@@ -2,7 +2,7 @@
 
 namespace BT.Brume
 {
-    [CreateAssetMenu(menuName = "Brume/Variable/Sprite")]
+    [CreateAssetMenu(menuName = "Variable/Sprite")]
     public class SpriteVariable : ScriptableObject
     {
         public Sprite value;

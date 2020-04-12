@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace BT.Variables
 {
-    [CreateAssetMenu(menuName = "Variables/Bool")]
+    [CreateAssetMenu(menuName = "Variable/Bool")]
     public class BoolVariable : ScriptableObject
     {
 #if UNITY_EDITOR

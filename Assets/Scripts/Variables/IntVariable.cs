@@ -2,7 +2,7 @@
 
 namespace BT.Brume
 {
-    [CreateAssetMenu(menuName = "Brume/Variable/Int")]
+    [CreateAssetMenu(menuName = "Variable/Int")]
     public class IntVariable : ScriptableObject
     {
         public int value;
